@@ -18,6 +18,12 @@ Since, the app was made in a local environment, it can be tested by replacing th
 -> Model training on specific perpose <br>
 -> Flutter packages 
 
+# Resources and Credits
+Logo - https://www.design.com/
+Bg1 - https://in.pinterest.com/pin/108156828546664865/
+Bee - https://in.pinterest.com/pin/839851030546766571/
+Wave - https://in.pinterest.com/pin/839851030546766529/
+
 # Team Members
 Alisha Basa <br>
 Eashna Jain <br>
