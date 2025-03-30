@@ -92,9 +92,9 @@ class _SplashState extends State<SplashScreen> {
                   )
               ),
               const SizedBox(
-                height: 50,
+                height: 20,
               ),
-              const Text('Hydrottva', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold))
+              const Text('Welcome to your Hydroponic Garden', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic))
             ],
           ),
         )
@@ -144,7 +144,7 @@ class HydroponicsAppState extends State<HydroponicsApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Center(child: Text(_title[_selectedIndex] , style: TextStyle(color: Colors.white))),
+          title: Center(child: Text(_title[_selectedIndex] , style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))),
           backgroundColor: Color(0xFF80471C),
         ),
         body: _screens[_selectedIndex],

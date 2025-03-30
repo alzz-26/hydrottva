@@ -101,9 +101,9 @@ class HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.all(16),
           child: const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Text('Hello, User!', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black)),
-              Text('Welcome to your Hydroponic Garden', style: TextStyle(fontSize: 16, color: Colors.black)),
             ],
           ),
         ),
@@ -147,7 +147,7 @@ class HomeScreenState extends State<HomeScreen> {
           ),
         ),
         const SizedBox(height: 20),
-        const Text('Reminders', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+        const Text('Reminders', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,)),
         Expanded(
           child: ListView.builder(
             physics: const NeverScrollableScrollPhysics(),

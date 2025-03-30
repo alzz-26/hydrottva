@@ -18,7 +18,7 @@ class _PredictScreenState extends State<PredictScreen> {
   String predictionResult = "";
 
   Future<void> predictYield() async {
-    final url = Uri.parse('http://<YOUR LOCAL IP>:5000/predict');
+    final url = Uri.parse('<YOUR LOCAL IP>:5000/predict');
 
     final Map<String, dynamic> requestData = {
       "Ideal pH": double.tryParse(pHController.text) ?? 0.0,
